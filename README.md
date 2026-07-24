@@ -29,5 +29,8 @@ Run the compiled binary directly on the target system:
 - `[!]` **Warnings or pontential points of interest.**
 - `[!!!]` **Critical security findings or misconfigurations.**
 
+# Disclaimer
+This tool is created for educational purposes and authorized security testing only. The author is not responsible for any misuse of this software. Always ensure you have permission to test the target domain before running this tool.
+
 ## Contributing
 Contributions are welcome! If you'd like to help improve **lpechk**, please read the [CONTRIBUTING.md](CONTRIBUTING.md) file to understand how to get started, report bugs, or submit your own pull requests.
