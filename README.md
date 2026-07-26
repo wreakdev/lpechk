@@ -13,10 +13,17 @@ A lightweight, automated local enumeration tool written in Go designed to audit 
 - **Credential Exposure Check:** Probes sensitive system file permissions to verify if restricted files like shadow storage are world-readable.
 - **Environment Variable Audit:** Inspects runtime environment variables for insecure injection vectors, dangerous path configurations, and hardcoded secrets.
 
-## Compilation
+## Building and Installation
+1. Clone the repository.
 ```bash
-make all
+git clone https://github.com/wreakdev/lpechk
+cd lpechk
 ```
+2. Build the binary.
+```bash
+make all install clean
+```
+The binary will be installed to `~/.local/bin/lpechk`. Ensure that this directory is in your system `PATH`.
 
 ## Output Legend
 - `[+]` **Informational status or succesfull checks.**
