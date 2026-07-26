@@ -1,7 +1,4 @@
 # LPE Checker [lpechk]
-![GitHub release](https://img.shields.io/github/v/release/wreakdev/lpechk?style=for-the-badge&color=blue)
-![GitHub all releases](https://img.shields.io/github/downloads/wreakdev/lpechk/total?style=for-the-badge&color=green)
-
 
 A lightweight, automated local enumeration tool written in Go designed to audit Linux systems for potential privilege escalation vectors, misconfigurations, and sensitive data exposure.
 
