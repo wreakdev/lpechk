@@ -18,16 +18,13 @@ A lightweight, automated local enumeration tool written in Go designed to audit 
 make all
 ```
 
-## Usage
-Run the compiled binary directly on the target system:
-```bash
-./dist/lpechk-linux-amd64
-```
-
 ## Output Legend
 - `[+]` **Informational status or succesfull checks.**
 - `[!]` **Warnings or pontential points of interest.**
 - `[!!!]` **Critical security findings or misconfigurations.**
+
+# Prerequisites
+- **Go** (version 1.18 or higher recommended)
 
 # Disclaimer
 This tool is created for educational purposes and authorized security testing only. The author is not responsible for any misuse of this software. Always ensure you have permission to test the target domain before running this tool.
